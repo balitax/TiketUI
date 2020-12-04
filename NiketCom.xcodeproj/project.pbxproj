@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F6177A257A97AD00FEE9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F61779257A97AD00FEE9B5 /* AppDelegate.swift */; };
+		26F6177C257A97AD00FEE9B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6177B257A97AD00FEE9B5 /* SceneDelegate.swift */; };
+		26F6177E257A97AD00FEE9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6177D257A97AD00FEE9B5 /* ViewController.swift */; };
+		26F61781257A97AD00FEE9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F6177F257A97AD00FEE9B5 /* Main.storyboard */; };
+		26F61783257A97B000FEE9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F61782257A97B000FEE9B5 /* Assets.xcassets */; };
+		26F61786257A97B000FEE9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F61784257A97B000FEE9B5 /* LaunchScreen.storyboard */; };
+		26F61791257A97B000FEE9B5 /* NiketComTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F61790257A97B000FEE9B5 /* NiketComTests.swift */; };
+		26F6179C257A97B000FEE9B5 /* NiketComUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6179B257A97B000FEE9B5 /* NiketComUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F6178D257A97B000FEE9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F6176E257A97AD00FEE9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F61775257A97AD00FEE9B5;
+			remoteInfo = NiketCom;
+		};
+		26F61798257A97B000FEE9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F6176E257A97AD00FEE9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F61775257A97AD00FEE9B5;
+			remoteInfo = NiketCom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F61776257A97AD00FEE9B5 /* NiketCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiketCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F61779257A97AD00FEE9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26F6177B257A97AD00FEE9B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26F6177D257A97AD00FEE9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26F61780257A97AD00FEE9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F61782257A97B000FEE9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F61785257A97B000FEE9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F61787257A97B000FEE9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F6178C257A97B000FEE9B5 /* NiketComTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiketComTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F61790257A97B000FEE9B5 /* NiketComTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiketComTests.swift; sourceTree = "<group>"; };
+		26F61792257A97B000FEE9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F61797257A97B000FEE9B5 /* NiketComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiketComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F6179B257A97B000FEE9B5 /* NiketComUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiketComUITests.swift; sourceTree = "<group>"; };
+		26F6179D257A97B000FEE9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F61773257A97AD00FEE9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F61789257A97B000FEE9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F61794257A97B000FEE9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F6176D257A97AD00FEE9B5 = {
+			isa = PBXGroup;
+			children = (
+				26F61778257A97AD00FEE9B5 /* NiketCom */,
+				26F6178F257A97B000FEE9B5 /* NiketComTests */,
+				26F6179A257A97B000FEE9B5 /* NiketComUITests */,
+				26F61777257A97AD00FEE9B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F61777257A97AD00FEE9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F61776257A97AD00FEE9B5 /* NiketCom.app */,
+				26F6178C257A97B000FEE9B5 /* NiketComTests.xctest */,
+				26F61797257A97B000FEE9B5 /* NiketComUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F61778257A97AD00FEE9B5 /* NiketCom */ = {
+			isa = PBXGroup;
+			children = (
+				26F61779257A97AD00FEE9B5 /* AppDelegate.swift */,
+				26F6177B257A97AD00FEE9B5 /* SceneDelegate.swift */,
+				26F6177D257A97AD00FEE9B5 /* ViewController.swift */,
+				26F6177F257A97AD00FEE9B5 /* Main.storyboard */,
+				26F61782257A97B000FEE9B5 /* Assets.xcassets */,
+				26F61784257A97B000FEE9B5 /* LaunchScreen.storyboard */,
+				26F61787257A97B000FEE9B5 /* Info.plist */,
+			);
+			path = NiketCom;
+			sourceTree = "<group>";
+		};
+		26F6178F257A97B000FEE9B5 /* NiketComTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F61790257A97B000FEE9B5 /* NiketComTests.swift */,
+				26F61792257A97B000FEE9B5 /* Info.plist */,
+			);
+			path = NiketComTests;
+			sourceTree = "<group>";
+		};
+		26F6179A257A97B000FEE9B5 /* NiketComUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26F6179B257A97B000FEE9B5 /* NiketComUITests.swift */,
+				26F6179D257A97B000FEE9B5 /* Info.plist */,
+			);
+			path = NiketComUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F61775257A97AD00FEE9B5 /* NiketCom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F617A0257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketCom" */;
+			buildPhases = (
+				26F61772257A97AD00FEE9B5 /* Sources */,
+				26F61773257A97AD00FEE9B5 /* Frameworks */,
+				26F61774257A97AD00FEE9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiketCom;
+			productName = NiketCom;
+			productReference = 26F61776257A97AD00FEE9B5 /* NiketCom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F6178B257A97B000FEE9B5 /* NiketComTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F617A3257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketComTests" */;
+			buildPhases = (
+				26F61788257A97B000FEE9B5 /* Sources */,
+				26F61789257A97B000FEE9B5 /* Frameworks */,
+				26F6178A257A97B000FEE9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F6178E257A97B000FEE9B5 /* PBXTargetDependency */,
+			);
+			name = NiketComTests;
+			productName = NiketComTests;
+			productReference = 26F6178C257A97B000FEE9B5 /* NiketComTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F61796257A97B000FEE9B5 /* NiketComUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F617A6257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketComUITests" */;
+			buildPhases = (
+				26F61793257A97B000FEE9B5 /* Sources */,
+				26F61794257A97B000FEE9B5 /* Frameworks */,
+				26F61795257A97B000FEE9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F61799257A97B000FEE9B5 /* PBXTargetDependency */,
+			);
+			name = NiketComUITests;
+			productName = NiketComUITests;
+			productReference = 26F61797257A97B000FEE9B5 /* NiketComUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F6176E257A97AD00FEE9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					26F61775257A97AD00FEE9B5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					26F6178B257A97B000FEE9B5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 26F61775257A97AD00FEE9B5;
+					};
+					26F61796257A97B000FEE9B5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 26F61775257A97AD00FEE9B5;
+					};
+				};
+			};
+			buildConfigurationList = 26F61771257A97AD00FEE9B5 /* Build configuration list for PBXProject "NiketCom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F6176D257A97AD00FEE9B5;
+			productRefGroup = 26F61777257A97AD00FEE9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F61775257A97AD00FEE9B5 /* NiketCom */,
+				26F6178B257A97B000FEE9B5 /* NiketComTests */,
+				26F61796257A97B000FEE9B5 /* NiketComUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F61774257A97AD00FEE9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F61786257A97B000FEE9B5 /* LaunchScreen.storyboard in Resources */,
+				26F61783257A97B000FEE9B5 /* Assets.xcassets in Resources */,
+				26F61781257A97AD00FEE9B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F6178A257A97B000FEE9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F61795257A97B000FEE9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F61772257A97AD00FEE9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F6177E257A97AD00FEE9B5 /* ViewController.swift in Sources */,
+				26F6177A257A97AD00FEE9B5 /* AppDelegate.swift in Sources */,
+				26F6177C257A97AD00FEE9B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F61788257A97B000FEE9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F61791257A97B000FEE9B5 /* NiketComTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F61793257A97B000FEE9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F6179C257A97B000FEE9B5 /* NiketComUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F6178E257A97B000FEE9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F61775257A97AD00FEE9B5 /* NiketCom */;
+			targetProxy = 26F6178D257A97B000FEE9B5 /* PBXContainerItemProxy */;
+		};
+		26F61799257A97B000FEE9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F61775257A97AD00FEE9B5 /* NiketCom */;
+			targetProxy = 26F61798257A97B000FEE9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F6177F257A97AD00FEE9B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F61780257A97AD00FEE9B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F61784257A97B000FEE9B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F61785257A97B000FEE9B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F6179E257A97B000FEE9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26F6179F257A97B000FEE9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F617A1257A97B000FEE9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVYUN25RVP;
+				INFOPLIST_FILE = NiketCom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F617A2257A97B000FEE9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVYUN25RVP;
+				INFOPLIST_FILE = NiketCom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26F617A4257A97B000FEE9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVYUN25RVP;
+				INFOPLIST_FILE = NiketComTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketComTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiketCom.app/NiketCom";
+			};
+			name = Debug;
+		};
+		26F617A5257A97B000FEE9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVYUN25RVP;
+				INFOPLIST_FILE = NiketComTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketComTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiketCom.app/NiketCom";
+			};
+			name = Release;
+		};
+		26F617A7257A97B000FEE9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVYUN25RVP;
+				INFOPLIST_FILE = NiketComUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketComUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiketCom;
+			};
+			name = Debug;
+		};
+		26F617A8257A97B000FEE9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVYUN25RVP;
+				INFOPLIST_FILE = NiketComUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketComUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiketCom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F61771257A97AD00FEE9B5 /* Build configuration list for PBXProject "NiketCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F6179E257A97B000FEE9B5 /* Debug */,
+				26F6179F257A97B000FEE9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F617A0257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F617A1257A97B000FEE9B5 /* Debug */,
+				26F617A2257A97B000FEE9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F617A3257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketComTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F617A4257A97B000FEE9B5 /* Debug */,
+				26F617A5257A97B000FEE9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F617A6257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketComUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F617A7257A97B000FEE9B5 /* Debug */,
+				26F617A8257A97B000FEE9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F6176E257A97AD00FEE9B5 /* Project object */;
+}
