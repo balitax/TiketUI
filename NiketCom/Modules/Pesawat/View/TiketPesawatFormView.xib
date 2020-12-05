@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TiketPesawatFormView" customModule="NiketCom" customModuleProvider="target">
+            <connections>
+                <outlet property="curvedHeader" destination="wm7-FN-Uip" id="ahp-4h-DGx"/>
+                <outlet property="tableView" destination="BP1-Qx-ghh" id="HDA-qH-Scl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wm7-FN-Uip">
+                    <rect key="frame" x="0.0" y="88" width="414" height="80"/>
+                    <color key="backgroundColor" red="0.0" green="0.39215686274509803" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="DHl-rO-OYe"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BP1-Qx-ghh">
+                    <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BP1-Qx-ghh" secondAttribute="bottom" id="DNv-5K-A6P"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wm7-FN-Uip" secondAttribute="trailing" id="G7O-nW-pGP"/>
+                <constraint firstItem="wm7-FN-Uip" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="KlH-hc-cHP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BP1-Qx-ghh" secondAttribute="trailing" id="bbX-PH-rBR"/>
+                <constraint firstItem="BP1-Qx-ghh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="coF-kd-AsS"/>
+                <constraint firstItem="BP1-Qx-ghh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="iPB-p0-SXG"/>
+                <constraint firstItem="wm7-FN-Uip" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lOt-u6-XjQ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="37.681159420289859" y="103.79464285714285"/>
+        </view>
+    </objects>
+</document>

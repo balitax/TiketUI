@@ -3,18 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261A8B90257AAA7A00D58B19 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A8B8E257AAA7A00D58B19 /* HomeView.swift */; };
+		261A8B91257AAA7A00D58B19 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261A8B8F257AAA7A00D58B19 /* HomeView.xib */; };
+		261A8B96257AAAB900D58B19 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A8B95257AAAB900D58B19 /* Constant.swift */; };
+		261A8B9D257AAB2E00D58B19 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A8B9C257AAB2E00D58B19 /* UIColor+Extensions.swift */; };
+		262F3386257BA07600AEE9BF /* CRRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 262F3385257BA07600AEE9BF /* CRRefresh */; };
+		262F338B257BAEA300AEE9BF /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F338A257BAEA300AEE9BF /* AppRootView.swift */; };
+		262F3391257BB29400AEE9BF /* GridCardStyleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F338F257BB29400AEE9BF /* GridCardStyleCollectionViewCell.swift */; };
+		262F3392257BB29400AEE9BF /* GridCardStyleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F3390257BB29400AEE9BF /* GridCardStyleCollectionViewCell.xib */; };
+		262F33A9257BC48800AEE9BF /* TiketPesawatFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F33A7257BC48800AEE9BF /* TiketPesawatFormView.swift */; };
+		262F33AA257BC48800AEE9BF /* TiketPesawatFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F33A8257BC48800AEE9BF /* TiketPesawatFormView.xib */; };
+		262F33B4257BC88700AEE9BF /* DestinationFormInputViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F33B2257BC88700AEE9BF /* DestinationFormInputViewCell.swift */; };
+		262F33B5257BC88700AEE9BF /* DestinationFormInputViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F33B3257BC88700AEE9BF /* DestinationFormInputViewCell.xib */; };
+		262F33BA257BCAD900AEE9BF /* BXDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F33B9257BCAD900AEE9BF /* BXDashView.swift */; };
+		262F33BF257BD66100AEE9BF /* BXSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F33BE257BD66100AEE9BF /* BXSwitch.swift */; };
+		262F33E3257BDB4900AEE9BF /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F33E2257BDB4900AEE9BF /* BaseTableViewCell.swift */; };
+		262F33E8257BE7FA00AEE9BF /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F33E7257BE7FA00AEE9BF /* UIButton+Extension.swift */; };
+		263B40B1257AC9F300E3CF09 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B40B0257AC9F300E3CF09 /* UIView+Extension.swift */; };
+		263B40BF257B655800E3CF09 /* GridMenuItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B40BD257B655800E3CF09 /* GridMenuItemViewCell.swift */; };
+		263B40C0257B655800E3CF09 /* GridMenuItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263B40BE257B655800E3CF09 /* GridMenuItemViewCell.xib */; };
+		263B40C5257B675000E3CF09 /* GridMenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B40C4257B675000E3CF09 /* GridMenuSection.swift */; };
+		263B40CB257B731B00E3CF09 /* HeaderSectionTitleReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B40C9257B731B00E3CF09 /* HeaderSectionTitleReusableView.swift */; };
+		263B40CC257B731B00E3CF09 /* HeaderSectionTitleReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263B40CA257B731B00E3CF09 /* HeaderSectionTitleReusableView.xib */; };
+		263B40D1257B75D900E3CF09 /* GridProductSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B40D0257B75D900E3CF09 /* GridProductSection.swift */; };
+		263B40D7257B762500E3CF09 /* GridProductListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B40D5257B762500E3CF09 /* GridProductListCollectionViewCell.swift */; };
+		263B40D8257B762500E3CF09 /* GridProductListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263B40D6257B762500E3CF09 /* GridProductListCollectionViewCell.xib */; };
+		2678A652257AB00E00FB2265 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A651257AB00E00FB2265 /* BaseView.swift */; };
+		2678A658257AB51100FB2265 /* BadgeButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A657257AB51100FB2265 /* BadgeButtonItem.swift */; };
+		2678A664257AC2A400FB2265 /* ZCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A660257AC2A400FB2265 /* ZCycleView.swift */; };
+		2678A665257AC2A400FB2265 /* ZCycleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A661257AC2A400FB2265 /* ZCycleViewCell.swift */; };
+		2678A666257AC2A400FB2265 /* ZCycleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A662257AC2A400FB2265 /* ZCycleLayout.swift */; };
+		2678A667257AC2A400FB2265 /* ZPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A663257AC2A400FB2265 /* ZPageControl.swift */; };
+		2678A673257AC31700FB2265 /* PromoBannerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A672257AC31700FB2265 /* PromoBannerSection.swift */; };
+		2678A679257AC33900FB2265 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A678257AC33800FB2265 /* Sections.swift */; };
+		2678A67E257AC36600FB2265 /* ReusableListView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A67D257AC36600FB2265 /* ReusableListView+Extensions.swift */; };
+		2678A683257AC38D00FB2265 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A682257AC38D00FB2265 /* Reusable.swift */; };
+		2678A68B257AC40A00FB2265 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A68A257AC40A00FB2265 /* BaseCollectionViewCell.swift */; };
+		2678A690257AC46D00FB2265 /* BaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A68F257AC46D00FB2265 /* BaseCollectionReusableView.swift */; };
+		2678A695257AC4E500FB2265 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A694257AC4E500FB2265 /* UIImageView+Extension.swift */; };
+		2678A69E257AC5C700FB2265 /* PromoBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2678A69C257AC5C700FB2265 /* PromoBannerCollectionViewCell.swift */; };
+		2678A69F257AC5C700FB2265 /* PromoBannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2678A69D257AC5C700FB2265 /* PromoBannerCollectionViewCell.xib */; };
 		26F6177A257A97AD00FEE9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F61779257A97AD00FEE9B5 /* AppDelegate.swift */; };
-		26F6177C257A97AD00FEE9B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6177B257A97AD00FEE9B5 /* SceneDelegate.swift */; };
-		26F6177E257A97AD00FEE9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6177D257A97AD00FEE9B5 /* ViewController.swift */; };
-		26F61781257A97AD00FEE9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F6177F257A97AD00FEE9B5 /* Main.storyboard */; };
 		26F61783257A97B000FEE9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F61782257A97B000FEE9B5 /* Assets.xcassets */; };
 		26F61786257A97B000FEE9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F61784257A97B000FEE9B5 /* LaunchScreen.storyboard */; };
 		26F61791257A97B000FEE9B5 /* NiketComTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F61790257A97B000FEE9B5 /* NiketComTests.swift */; };
 		26F6179C257A97B000FEE9B5 /* NiketComUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6179B257A97B000FEE9B5 /* NiketComUITests.swift */; };
+		2BA2F359C86CA23219E2E19F /* Pods_NiketComTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B3D90D112C435D515D3052 /* Pods_NiketComTests.framework */; };
+		C08AC1DD045A2B794469A563 /* Pods_NiketCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC8A79778151C111FADD26B /* Pods_NiketCom.framework */; };
+		E0AB917377833F8D73F64FB8 /* Pods_NiketCom_NiketComUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4567DD7A1D8F01EBA38D6095 /* Pods_NiketCom_NiketComUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +75,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EFDBA15F8E66C317B20E445 /* Pods-NiketComTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiketComTests.debug.xcconfig"; path = "Target Support Files/Pods-NiketComTests/Pods-NiketComTests.debug.xcconfig"; sourceTree = "<group>"; };
+		261A8B8E257AAA7A00D58B19 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		261A8B8F257AAA7A00D58B19 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		261A8B95257AAAB900D58B19 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		261A8B9C257AAB2E00D58B19 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		262F338A257BAEA300AEE9BF /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		262F338F257BB29400AEE9BF /* GridCardStyleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCardStyleCollectionViewCell.swift; sourceTree = "<group>"; };
+		262F3390257BB29400AEE9BF /* GridCardStyleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCardStyleCollectionViewCell.xib; sourceTree = "<group>"; };
+		262F33A7257BC48800AEE9BF /* TiketPesawatFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiketPesawatFormView.swift; sourceTree = "<group>"; };
+		262F33A8257BC48800AEE9BF /* TiketPesawatFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TiketPesawatFormView.xib; sourceTree = "<group>"; };
+		262F33B2257BC88700AEE9BF /* DestinationFormInputViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationFormInputViewCell.swift; sourceTree = "<group>"; };
+		262F33B3257BC88700AEE9BF /* DestinationFormInputViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationFormInputViewCell.xib; sourceTree = "<group>"; };
+		262F33B9257BCAD900AEE9BF /* BXDashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BXDashView.swift; sourceTree = "<group>"; };
+		262F33BE257BD66100AEE9BF /* BXSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BXSwitch.swift; sourceTree = "<group>"; };
+		262F33E2257BDB4900AEE9BF /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		262F33E7257BE7FA00AEE9BF /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		263B40B0257AC9F300E3CF09 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		263B40BD257B655800E3CF09 /* GridMenuItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridMenuItemViewCell.swift; sourceTree = "<group>"; };
+		263B40BE257B655800E3CF09 /* GridMenuItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridMenuItemViewCell.xib; sourceTree = "<group>"; };
+		263B40C4257B675000E3CF09 /* GridMenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridMenuSection.swift; sourceTree = "<group>"; };
+		263B40C9257B731B00E3CF09 /* HeaderSectionTitleReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionTitleReusableView.swift; sourceTree = "<group>"; };
+		263B40CA257B731B00E3CF09 /* HeaderSectionTitleReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSectionTitleReusableView.xib; sourceTree = "<group>"; };
+		263B40D0257B75D900E3CF09 /* GridProductSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProductSection.swift; sourceTree = "<group>"; };
+		263B40D5257B762500E3CF09 /* GridProductListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProductListCollectionViewCell.swift; sourceTree = "<group>"; };
+		263B40D6257B762500E3CF09 /* GridProductListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridProductListCollectionViewCell.xib; sourceTree = "<group>"; };
+		2678A651257AB00E00FB2265 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2678A657257AB51100FB2265 /* BadgeButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeButtonItem.swift; sourceTree = "<group>"; };
+		2678A660257AC2A400FB2265 /* ZCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCycleView.swift; sourceTree = "<group>"; };
+		2678A661257AC2A400FB2265 /* ZCycleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCycleViewCell.swift; sourceTree = "<group>"; };
+		2678A662257AC2A400FB2265 /* ZCycleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCycleLayout.swift; sourceTree = "<group>"; };
+		2678A663257AC2A400FB2265 /* ZPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPageControl.swift; sourceTree = "<group>"; };
+		2678A672257AC31700FB2265 /* PromoBannerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoBannerSection.swift; sourceTree = "<group>"; };
+		2678A678257AC33800FB2265 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		2678A67D257AC36600FB2265 /* ReusableListView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReusableListView+Extensions.swift"; sourceTree = "<group>"; };
+		2678A682257AC38D00FB2265 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		2678A68A257AC40A00FB2265 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		2678A68F257AC46D00FB2265 /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		2678A694257AC4E500FB2265 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		2678A69C257AC5C700FB2265 /* PromoBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		2678A69D257AC5C700FB2265 /* PromoBannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoBannerCollectionViewCell.xib; sourceTree = "<group>"; };
 		26F61776257A97AD00FEE9B5 /* NiketCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiketCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F61779257A97AD00FEE9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26F6177B257A97AD00FEE9B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26F6177D257A97AD00FEE9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26F61780257A97AD00FEE9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26F61782257A97B000FEE9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F61785257A97B000FEE9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26F61787257A97B000FEE9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +126,14 @@
 		26F61797257A97B000FEE9B5 /* NiketComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiketComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F6179B257A97B000FEE9B5 /* NiketComUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiketComUITests.swift; sourceTree = "<group>"; };
 		26F6179D257A97B000FEE9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2B4C71BF4A97DB37CB663C /* Pods-NiketCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiketCom.release.xcconfig"; path = "Target Support Files/Pods-NiketCom/Pods-NiketCom.release.xcconfig"; sourceTree = "<group>"; };
+		4567DD7A1D8F01EBA38D6095 /* Pods_NiketCom_NiketComUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiketCom_NiketComUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E07BFEC954BB11EBAC8B63 /* Pods-NiketCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiketCom.debug.xcconfig"; path = "Target Support Files/Pods-NiketCom/Pods-NiketCom.debug.xcconfig"; sourceTree = "<group>"; };
+		50B3D90D112C435D515D3052 /* Pods_NiketComTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiketComTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56877D3FE4821469F5BE6995 /* Pods-NiketCom-NiketComUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiketCom-NiketComUITests.debug.xcconfig"; path = "Target Support Files/Pods-NiketCom-NiketComUITests/Pods-NiketCom-NiketComUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D232DA5F774C6C4A808930E /* Pods-NiketCom-NiketComUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiketCom-NiketComUITests.release.xcconfig"; path = "Target Support Files/Pods-NiketCom-NiketComUITests/Pods-NiketCom-NiketComUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC8A79778151C111FADD26B /* Pods_NiketCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiketCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53DD62696584DF337FFC44D /* Pods-NiketComTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiketComTests.release.xcconfig"; path = "Target Support Files/Pods-NiketComTests/Pods-NiketComTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08AC1DD045A2B794469A563 /* Pods_NiketCom.framework in Frameworks */,
+				262F3386257BA07600AEE9BF /* CRRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA2F359C86CA23219E2E19F /* Pods_NiketComTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +158,180 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AB917377833F8D73F64FB8 /* Pods_NiketCom_NiketComUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17BDD2D94C14FF81A0DCB39F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8A79778151C111FADD26B /* Pods_NiketCom.framework */,
+				4567DD7A1D8F01EBA38D6095 /* Pods_NiketCom_NiketComUITests.framework */,
+				50B3D90D112C435D515D3052 /* Pods_NiketComTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		261A8B8B257AAA5700D58B19 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				26F61779257A97AD00FEE9B5 /* AppDelegate.swift */,
+				261A8B95257AAAB900D58B19 /* Constant.swift */,
+				262F338A257BAEA300AEE9BF /* AppRootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		261A8B8C257AAA5F00D58B19 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				262F33A5257BC46400AEE9BF /* Pesawat */,
+				261A8B8D257AAA6700D58B19 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		261A8B8D257AAA6700D58B19 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2678A65E257AC26F00FB2265 /* Sections */,
+				2678A65D257AC26800FB2265 /* Components */,
+				2678A65C257AC26000FB2265 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		261A8B9A257AAB1B00D58B19 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2678A677257AC32200FB2265 /* Protocols */,
+				2678A650257AB00600FB2265 /* Base */,
+				261A8B9B257AAB2500D58B19 /* Extensions */,
+				2678A656257AB4FF00FB2265 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		261A8B9B257AAB2500D58B19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				262F33E7257BE7FA00AEE9BF /* UIButton+Extension.swift */,
+				263B40B0257AC9F300E3CF09 /* UIView+Extension.swift */,
+				2678A694257AC4E500FB2265 /* UIImageView+Extension.swift */,
+				2678A67D257AC36600FB2265 /* ReusableListView+Extensions.swift */,
+				261A8B9C257AAB2E00D58B19 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		262F33A5257BC46400AEE9BF /* Pesawat */ = {
+			isa = PBXGroup;
+			children = (
+				262F33B1257BC80300AEE9BF /* Components */,
+				262F33A6257BC47400AEE9BF /* View */,
+			);
+			path = Pesawat;
+			sourceTree = "<group>";
+		};
+		262F33A6257BC47400AEE9BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				262F33A7257BC48800AEE9BF /* TiketPesawatFormView.swift */,
+				262F33A8257BC48800AEE9BF /* TiketPesawatFormView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		262F33B1257BC80300AEE9BF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				262F33B2257BC88700AEE9BF /* DestinationFormInputViewCell.swift */,
+				262F33B3257BC88700AEE9BF /* DestinationFormInputViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2678A650257AB00600FB2265 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2678A651257AB00E00FB2265 /* BaseView.swift */,
+				2678A68A257AC40A00FB2265 /* BaseCollectionViewCell.swift */,
+				2678A68F257AC46D00FB2265 /* BaseCollectionReusableView.swift */,
+				262F33E2257BDB4900AEE9BF /* BaseTableViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2678A656257AB4FF00FB2265 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2678A65F257AC2A400FB2265 /* ZCycleView */,
+				2678A657257AB51100FB2265 /* BadgeButtonItem.swift */,
+				262F33B9257BCAD900AEE9BF /* BXDashView.swift */,
+				262F33BE257BD66100AEE9BF /* BXSwitch.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2678A65C257AC26000FB2265 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				261A8B8E257AAA7A00D58B19 /* HomeView.swift */,
+				261A8B8F257AAA7A00D58B19 /* HomeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2678A65D257AC26800FB2265 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2678A69C257AC5C700FB2265 /* PromoBannerCollectionViewCell.swift */,
+				2678A69D257AC5C700FB2265 /* PromoBannerCollectionViewCell.xib */,
+				263B40BD257B655800E3CF09 /* GridMenuItemViewCell.swift */,
+				263B40BE257B655800E3CF09 /* GridMenuItemViewCell.xib */,
+				263B40C9257B731B00E3CF09 /* HeaderSectionTitleReusableView.swift */,
+				263B40CA257B731B00E3CF09 /* HeaderSectionTitleReusableView.xib */,
+				263B40D5257B762500E3CF09 /* GridProductListCollectionViewCell.swift */,
+				263B40D6257B762500E3CF09 /* GridProductListCollectionViewCell.xib */,
+				262F338F257BB29400AEE9BF /* GridCardStyleCollectionViewCell.swift */,
+				262F3390257BB29400AEE9BF /* GridCardStyleCollectionViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2678A65E257AC26F00FB2265 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				2678A672257AC31700FB2265 /* PromoBannerSection.swift */,
+				263B40C4257B675000E3CF09 /* GridMenuSection.swift */,
+				263B40D0257B75D900E3CF09 /* GridProductSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		2678A65F257AC2A400FB2265 /* ZCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				2678A660257AC2A400FB2265 /* ZCycleView.swift */,
+				2678A661257AC2A400FB2265 /* ZCycleViewCell.swift */,
+				2678A662257AC2A400FB2265 /* ZCycleLayout.swift */,
+				2678A663257AC2A400FB2265 /* ZPageControl.swift */,
+			);
+			path = ZCycleView;
+			sourceTree = "<group>";
+		};
+		2678A677257AC32200FB2265 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2678A682257AC38D00FB2265 /* Reusable.swift */,
+				2678A678257AC33800FB2265 /* Sections.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		26F6176D257A97AD00FEE9B5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +339,8 @@
 				26F6178F257A97B000FEE9B5 /* NiketComTests */,
 				26F6179A257A97B000FEE9B5 /* NiketComUITests */,
 				26F61777257A97AD00FEE9B5 /* Products */,
+				6106AE441C9072684FF83496 /* Pods */,
+				17BDD2D94C14FF81A0DCB39F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +357,9 @@
 		26F61778257A97AD00FEE9B5 /* NiketCom */ = {
 			isa = PBXGroup;
 			children = (
-				26F61779257A97AD00FEE9B5 /* AppDelegate.swift */,
-				26F6177B257A97AD00FEE9B5 /* SceneDelegate.swift */,
-				26F6177D257A97AD00FEE9B5 /* ViewController.swift */,
-				26F6177F257A97AD00FEE9B5 /* Main.storyboard */,
+				261A8B8B257AAA5700D58B19 /* App */,
+				261A8B9A257AAB1B00D58B19 /* Classes */,
+				261A8B8C257AAA5F00D58B19 /* Modules */,
 				26F61782257A97B000FEE9B5 /* Assets.xcassets */,
 				26F61784257A97B000FEE9B5 /* LaunchScreen.storyboard */,
 				26F61787257A97B000FEE9B5 /* Info.plist */,
@@ -128,6 +385,19 @@
 			path = NiketComUITests;
 			sourceTree = "<group>";
 		};
+		6106AE441C9072684FF83496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E07BFEC954BB11EBAC8B63 /* Pods-NiketCom.debug.xcconfig */,
+				2C2B4C71BF4A97DB37CB663C /* Pods-NiketCom.release.xcconfig */,
+				56877D3FE4821469F5BE6995 /* Pods-NiketCom-NiketComUITests.debug.xcconfig */,
+				7D232DA5F774C6C4A808930E /* Pods-NiketCom-NiketComUITests.release.xcconfig */,
+				1EFDBA15F8E66C317B20E445 /* Pods-NiketComTests.debug.xcconfig */,
+				B53DD62696584DF337FFC44D /* Pods-NiketComTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +405,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26F617A0257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketCom" */;
 			buildPhases = (
+				CE3EDDFDA7C1EA4CBDE38BD0 /* [CP] Check Pods Manifest.lock */,
 				26F61772257A97AD00FEE9B5 /* Sources */,
 				26F61773257A97AD00FEE9B5 /* Frameworks */,
 				26F61774257A97AD00FEE9B5 /* Resources */,
+				6AA037202ACB5486E29010F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NiketCom;
+			packageProductDependencies = (
+				262F3385257BA07600AEE9BF /* CRRefresh */,
+			);
 			productName = NiketCom;
 			productReference = 26F61776257A97AD00FEE9B5 /* NiketCom.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +427,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26F617A3257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketComTests" */;
 			buildPhases = (
+				0E11E5C56F83089240177F0E /* [CP] Check Pods Manifest.lock */,
 				26F61788257A97B000FEE9B5 /* Sources */,
 				26F61789257A97B000FEE9B5 /* Frameworks */,
 				26F6178A257A97B000FEE9B5 /* Resources */,
@@ -170,9 +446,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26F617A6257A97B000FEE9B5 /* Build configuration list for PBXNativeTarget "NiketComUITests" */;
 			buildPhases = (
+				0278AE75A57C60A2DEDCE393 /* [CP] Check Pods Manifest.lock */,
 				26F61793257A97B000FEE9B5 /* Sources */,
 				26F61794257A97B000FEE9B5 /* Frameworks */,
 				26F61795257A97B000FEE9B5 /* Resources */,
+				131573C982A4F879F78C8A48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +493,9 @@
 				Base,
 			);
 			mainGroup = 26F6176D257A97AD00FEE9B5;
+			packageReferences = (
+				262F3384257BA07600AEE9BF /* XCRemoteSwiftPackageReference "CRRefresh" */,
+			);
 			productRefGroup = 26F61777257A97AD00FEE9B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +512,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2678A69F257AC5C700FB2265 /* PromoBannerCollectionViewCell.xib in Resources */,
 				26F61786257A97B000FEE9B5 /* LaunchScreen.storyboard in Resources */,
+				262F33AA257BC48800AEE9BF /* TiketPesawatFormView.xib in Resources */,
 				26F61783257A97B000FEE9B5 /* Assets.xcassets in Resources */,
-				26F61781257A97AD00FEE9B5 /* Main.storyboard in Resources */,
+				263B40CC257B731B00E3CF09 /* HeaderSectionTitleReusableView.xib in Resources */,
+				262F3392257BB29400AEE9BF /* GridCardStyleCollectionViewCell.xib in Resources */,
+				262F33B5257BC88700AEE9BF /* DestinationFormInputViewCell.xib in Resources */,
+				263B40C0257B655800E3CF09 /* GridMenuItemViewCell.xib in Resources */,
+				263B40D8257B762500E3CF09 /* GridProductListCollectionViewCell.xib in Resources */,
+				261A8B91257AAA7A00D58B19 /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +541,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0278AE75A57C60A2DEDCE393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiketCom-NiketComUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E11E5C56F83089240177F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiketComTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		131573C982A4F879F78C8A48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiketCom-NiketComUITests/Pods-NiketCom-NiketComUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiketCom-NiketComUITests/Pods-NiketCom-NiketComUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiketCom-NiketComUITests/Pods-NiketCom-NiketComUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA037202ACB5486E29010F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiketCom/Pods-NiketCom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiketCom/Pods-NiketCom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiketCom/Pods-NiketCom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE3EDDFDA7C1EA4CBDE38BD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiketCom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26F61772257A97AD00FEE9B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F6177E257A97AD00FEE9B5 /* ViewController.swift in Sources */,
+				261A8B90257AAA7A00D58B19 /* HomeView.swift in Sources */,
+				2678A679257AC33900FB2265 /* Sections.swift in Sources */,
+				261A8B9D257AAB2E00D58B19 /* UIColor+Extensions.swift in Sources */,
+				263B40CB257B731B00E3CF09 /* HeaderSectionTitleReusableView.swift in Sources */,
+				2678A652257AB00E00FB2265 /* BaseView.swift in Sources */,
+				2678A664257AC2A400FB2265 /* ZCycleView.swift in Sources */,
+				262F33B4257BC88700AEE9BF /* DestinationFormInputViewCell.swift in Sources */,
+				2678A665257AC2A400FB2265 /* ZCycleViewCell.swift in Sources */,
+				2678A667257AC2A400FB2265 /* ZPageControl.swift in Sources */,
+				2678A69E257AC5C700FB2265 /* PromoBannerCollectionViewCell.swift in Sources */,
 				26F6177A257A97AD00FEE9B5 /* AppDelegate.swift in Sources */,
-				26F6177C257A97AD00FEE9B5 /* SceneDelegate.swift in Sources */,
+				2678A658257AB51100FB2265 /* BadgeButtonItem.swift in Sources */,
+				2678A690257AC46D00FB2265 /* BaseCollectionReusableView.swift in Sources */,
+				263B40C5257B675000E3CF09 /* GridMenuSection.swift in Sources */,
+				2678A68B257AC40A00FB2265 /* BaseCollectionViewCell.swift in Sources */,
+				263B40B1257AC9F300E3CF09 /* UIView+Extension.swift in Sources */,
+				2678A683257AC38D00FB2265 /* Reusable.swift in Sources */,
+				263B40BF257B655800E3CF09 /* GridMenuItemViewCell.swift in Sources */,
+				2678A695257AC4E500FB2265 /* UIImageView+Extension.swift in Sources */,
+				262F3391257BB29400AEE9BF /* GridCardStyleCollectionViewCell.swift in Sources */,
+				262F33E3257BDB4900AEE9BF /* BaseTableViewCell.swift in Sources */,
+				262F33E8257BE7FA00AEE9BF /* UIButton+Extension.swift in Sources */,
+				2678A67E257AC36600FB2265 /* ReusableListView+Extensions.swift in Sources */,
+				262F33BF257BD66100AEE9BF /* BXSwitch.swift in Sources */,
+				262F338B257BAEA300AEE9BF /* AppRootView.swift in Sources */,
+				262F33A9257BC48800AEE9BF /* TiketPesawatFormView.swift in Sources */,
+				2678A666257AC2A400FB2265 /* ZCycleLayout.swift in Sources */,
+				263B40D7257B762500E3CF09 /* GridProductListCollectionViewCell.swift in Sources */,
+				261A8B96257AAAB900D58B19 /* Constant.swift in Sources */,
+				263B40D1257B75D900E3CF09 /* GridProductSection.swift in Sources */,
+				262F33BA257BCAD900AEE9BF /* BXDashView.swift in Sources */,
+				2678A673257AC31700FB2265 /* PromoBannerSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +716,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26F6177F257A97AD00FEE9B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26F61780257A97AD00FEE9B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		26F61784257A97B000FEE9B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,12 +845,14 @@
 		};
 		26F617A1257A97B000FEE9B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E07BFEC954BB11EBAC8B63 /* Pods-NiketCom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVYUN25RVP;
 				INFOPLIST_FILE = NiketCom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +860,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketCom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		26F617A2257A97B000FEE9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2B4C71BF4A97DB37CB663C /* Pods-NiketCom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVYUN25RVP;
 				INFOPLIST_FILE = NiketCom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,14 +881,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = masagus.NiketCom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		26F617A4257A97B000FEE9B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFDBA15F8E66C317B20E445 /* Pods-NiketComTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVYUN25RVP;
@@ -493,8 +910,9 @@
 		};
 		26F617A5257A97B000FEE9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53DD62696584DF337FFC44D /* Pods-NiketComTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVYUN25RVP;
@@ -515,8 +933,9 @@
 		};
 		26F617A7257A97B000FEE9B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56877D3FE4821469F5BE6995 /* Pods-NiketCom-NiketComUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVYUN25RVP;
 				INFOPLIST_FILE = NiketComUITests/Info.plist;
@@ -535,8 +954,9 @@
 		};
 		26F617A8257A97B000FEE9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D232DA5F774C6C4A808930E /* Pods-NiketCom-NiketComUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVYUN25RVP;
 				INFOPLIST_FILE = NiketComUITests/Info.plist;
@@ -593,6 +1013,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		262F3384257BA07600AEE9BF /* XCRemoteSwiftPackageReference "CRRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BarredEwe/CRRefresh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		262F3385257BA07600AEE9BF /* CRRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262F3384257BA07600AEE9BF /* XCRemoteSwiftPackageReference "CRRefresh" */;
+			productName = CRRefresh;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 26F6176E257A97AD00FEE9B5 /* Project object */;
 }

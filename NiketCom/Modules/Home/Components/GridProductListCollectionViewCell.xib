@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GridProductListCollectionViewCell" customModule="NiketCom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="309"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="187" height="309"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="klinik" translatesAutoresizingMaskIntoConstraints="NO" id="tiR-cr-cY4">
+                        <rect key="frame" x="0.0" y="0.0" width="187" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="0sS-zh-CMi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Covid Test dengan Kimia Farma" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwX-FO-82h">
+                        <rect key="frame" x="0.0" y="148" width="187" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.2156862745" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beli vouchernya di sini!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAr-kM-Tde">
+                        <rect key="frame" x="0.0" y="185.5" width="187" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tiR-cr-cY4" secondAttribute="trailing" id="3NP-lo-8On"/>
+                <constraint firstItem="eAr-kM-Tde" firstAttribute="leading" secondItem="DwX-FO-82h" secondAttribute="leading" id="Mkx-fM-CT3"/>
+                <constraint firstItem="DwX-FO-82h" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PbQ-Dc-FuX"/>
+                <constraint firstItem="tiR-cr-cY4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Q1z-Ws-aZs"/>
+                <constraint firstItem="tiR-cr-cY4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XIh-Pv-7lx"/>
+                <constraint firstItem="DwX-FO-82h" firstAttribute="top" secondItem="tiR-cr-cY4" secondAttribute="bottom" constant="8" id="bxM-X0-qgK"/>
+                <constraint firstItem="eAr-kM-Tde" firstAttribute="trailing" secondItem="DwX-FO-82h" secondAttribute="trailing" id="hD7-tQ-rCM"/>
+                <constraint firstItem="eAr-kM-Tde" firstAttribute="top" secondItem="DwX-FO-82h" secondAttribute="bottom" constant="4" id="u6n-oP-Z7L"/>
+                <constraint firstAttribute="trailing" secondItem="DwX-FO-82h" secondAttribute="trailing" id="uko-gL-hJv"/>
+            </constraints>
+            <size key="customSize" width="187" height="309"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imageProduct" destination="tiR-cr-cY4" id="w48-HT-xLz"/>
+                <outlet property="imageProductHeight" destination="0sS-zh-CMi" id="22p-Kp-i4L"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="13.058035714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="klinik" width="960" height="720"/>
+    </resources>
+</document>
