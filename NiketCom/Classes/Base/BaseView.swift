@@ -59,4 +59,14 @@ open class BaseView: UIViewController {
         self.observeMsgButtonItem.onNext(())
     }
     
+    internal func createCustomNavigationViewTitle(_ subview: [UIView]){
+        var hStack = UIStackView()
+        for view in subview {
+            hStack.addArrangedSubview(view)
+        }
+        hStack.spacing = 5
+        hStack.alignment = .center
+        navigationItem.titleView = hStack
+    }
+    
 }

@@ -150,7 +150,7 @@ extension HomeView: SkeletonCollectionViewDataSource {
     }
     
     func numSections(in collectionSkeletonView: UICollectionView) -> Int {
-        3
+        4
     }
     
     func collectionSkeletonView(_ skeletonView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

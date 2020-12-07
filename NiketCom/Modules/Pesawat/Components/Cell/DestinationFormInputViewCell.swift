@@ -10,6 +10,7 @@ import RxSwift
 
 protocol DestinationFormInputViewDelegate: class {
     func didChoosePulangPergi(_ pp: Bool)
+    func didCariPenerbangan(_ data: String)
 }
 
 class DestinationFormInputViewCell: BaseTableViewCell {
@@ -18,6 +19,7 @@ class DestinationFormInputViewCell: BaseTableViewCell {
     @IBOutlet weak var ppSwitch: UISwitch!
     @IBOutlet weak var pulangViewContainer: UIView!
     @IBOutlet weak var btnCheckboxFlexi: UIButton!
+    @IBOutlet weak var btnCariPenerbangan: UIButton!
     
     weak var delegate: DestinationFormInputViewDelegate?
     private var isFlexiSelected = false
@@ -45,6 +47,12 @@ class DestinationFormInputViewCell: BaseTableViewCell {
             .subscribe(onNext: { [unowned self] _ in
                 self.isFlexiSelected.toggle()
                 self.btnCheckboxFlexi.isCheckboxTapped(self.isFlexiSelected)
+            }).disposed(by: disposeBag)
+        
+        btnCariPenerbangan.rx
+            .tap
+            .subscribe(onNext: { [unowned self] _ in
+                self.delegate?.didCariPenerbangan("")
             }).disposed(by: disposeBag)
         
     }

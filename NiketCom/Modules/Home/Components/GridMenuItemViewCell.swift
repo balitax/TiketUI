@@ -19,7 +19,7 @@ class GridMenuItemViewCell: UICollectionViewCell {
         // Initialization code
         
         containerView.addShadow(offset: CGSize(width: 0, height: 6), color: Constant.AppTheme.shadowColor, borderColor: Constant.AppTheme.shadowColor, radius: 9, opacity: 1)
-        iconMenu.layer.cornerRadius = 20
+        iconMenu.layer.cornerRadius = 25
         titleMenu.layoutIfNeeded()
     }
     
