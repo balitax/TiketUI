@@ -24,7 +24,7 @@ class HomeView: BaseView {
         addRightMenuItems()
         setupCollectionView()
         
-        self.collectionView.showAnimatedGradientSkeleton()
+        self.view.showAnimatedGradientSkeleton()
         
         self.observeMsgButtonItem
             .subscribe(onNext: { [unowned self] _ in
@@ -35,15 +35,14 @@ class HomeView: BaseView {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
                 self.collectionView.cr.endHeaderRefresh()
                 self.collectionView.cr.resetNoMore()
+                self.view.hideSkeleton()
                 self.collectionView.reloadData()
-                
             })
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
-            self.collectionView.hideSkeleton()
+            self.view.hideSkeleton()
             self.collectionView.reloadData()
-            
         })
         
         collectionView.rx.itemSelected
@@ -69,11 +68,11 @@ class HomeView: BaseView {
         self.sections = [
             PromoBannerSection(),
             GridMenuSection(),
+            GridProductSection(.offers),
             GridProductSection(.covid),
             GridProductSection(.hotpromo),
             GridProductSection(.inspiration),
             GridProductSection(.escape),
-            GridProductSection(.offers)
         ]
         
         collectionView.performBatchUpdates {
@@ -150,7 +149,7 @@ extension HomeView: SkeletonCollectionViewDataSource {
     }
     
     func numSections(in collectionSkeletonView: UICollectionView) -> Int {
-        4
+        sections.count
     }
     
     func collectionSkeletonView(_ skeletonView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

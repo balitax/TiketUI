@@ -19,6 +19,10 @@ class PesawatListView: BaseView {
         breadcrumbFilterContainer.addBottomRoundedEdge(0.5)
         addCustomNaviewTitle()
         setupTableView()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) {
+            self.view.hideSkeleton(reloadDataAfter: true, transition: .crossDissolve(0.5))
+        }
     }
     
     private func setupTableView() {

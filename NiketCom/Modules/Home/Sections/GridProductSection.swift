@@ -136,8 +136,6 @@ class GridProductSection: Sections {
             return cell
         } else {
             let cell: GridProductListCollectionViewCell = collectionView.dequeueReusableCell(indexPath: indexPath)
-            
-            cell.hideSkeleton()
             return cell
         }
     }

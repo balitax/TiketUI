@@ -17,8 +17,6 @@ class GridProductListCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
-        self.showAnimatedGradientSkeleton()
     }
 
 }

@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 
-open class BaseCollectionViewCell: UICollectionViewCell {
+open class BaseCollectionViewCell: UICollectionViewCell, Reusable {
     
     public var disposeBag = DisposeBag()
     

@@ -42,8 +42,6 @@ class PromoBannerCollectionViewCell: BaseCollectionViewCell {
     
 }
 
-extension PromoBannerCollectionViewCell: Reusable { }
-
 extension PromoBannerCollectionViewCell: ZCycleViewProtocol {
     
     func cycleViewConfigureDefaultCellImage(_ cycleView: ZCycleView, imageView: UIImageView, image: UIImage?, index: Int) {

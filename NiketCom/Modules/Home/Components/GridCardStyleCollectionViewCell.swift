@@ -7,19 +7,14 @@
 
 import UIKit
 
-class GridCardStyleCollectionViewCell: UICollectionViewCell {
+class GridCardStyleCollectionViewCell: BaseCollectionViewCell {
     
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var imageView: UIView!
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-    }
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
         containerView.addShadow(offset: CGSize(width: 0, height: 1), color: Constant.AppTheme.shadowColor, borderColor: Constant.AppTheme.shadowColor, radius: 2, opacity: 0.8)
         containerView.layer.cornerRadius = 4
         
@@ -32,5 +27,3 @@ class GridCardStyleCollectionViewCell: UICollectionViewCell {
     }
 
 }
-
-extension GridCardStyleCollectionViewCell: Reusable { }
