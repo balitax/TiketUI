@@ -1,6 +1,0 @@
-framework module Pods_NiketComTests {
-  umbrella header "Pods-NiketComTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
