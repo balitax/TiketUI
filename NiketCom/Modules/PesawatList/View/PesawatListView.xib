@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PesawatListView" customModule="NiketCom" customModuleProvider="target">
             <connections>
                 <outlet property="breadcrumbFilterContainer" destination="hib-YN-52k" id="PR1-gV-O55"/>
+                <outlet property="tableView" destination="aIy-Rz-xBz" id="T3c-JY-x97"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -208,6 +209,9 @@
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <color key="textColor" red="0.2156862745" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            </userDefinedRuntimeAttributes>
                         </label>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -217,19 +221,36 @@
                         <constraint firstAttribute="trailing" secondItem="xlE-O9-dgD" secondAttribute="trailing" constant="12" id="xes-eN-Cau"/>
                         <constraint firstAttribute="bottom" secondItem="xlE-O9-dgD" secondAttribute="bottom" constant="8" id="zmy-T6-jzi"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                 </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aIy-Rz-xBz">
+                    <rect key="frame" x="0.0" y="181" width="414" height="715"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="aIy-Rz-xBz" secondAttribute="bottom" id="8ZI-Hf-BTM"/>
                 <constraint firstItem="1RE-3c-sqP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Lom-rg-j8I"/>
+                <constraint firstItem="aIy-Rz-xBz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OJf-6o-GNH"/>
                 <constraint firstItem="1RE-3c-sqP" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="RFR-kW-co5"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hib-YN-52k" secondAttribute="trailing" id="YHR-wL-zRU"/>
                 <constraint firstItem="hib-YN-52k" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ZxG-tu-dMS"/>
                 <constraint firstItem="hib-YN-52k" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cFO-Nd-6pd"/>
                 <constraint firstItem="1RE-3c-sqP" firstAttribute="top" secondItem="hib-YN-52k" secondAttribute="bottom" constant="8" id="hVn-tp-Kfi"/>
+                <constraint firstItem="aIy-Rz-xBz" firstAttribute="top" secondItem="1RE-3c-sqP" secondAttribute="bottom" id="sdB-dV-G7w"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aIy-Rz-xBz" secondAttribute="trailing" id="yzh-LX-K8w"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
             <point key="canvasLocation" x="37.681159420289859" y="103.79464285714285"/>
         </view>
     </objects>

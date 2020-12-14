@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PesawatListTableViewCell: UITableViewCell {
+class PesawatListTableViewCell: BaseTableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
